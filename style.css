@@ -1,0 +1,86 @@
+body {
+    background-color: lightskyblue
+}
+
+.spin {
+    font-size: 100px; 
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.cloud1, .cloud2, .cloud3, .cloud4, .cloud5, .cloud6  {
+    font-size: 100px; 
+    position: absolute;
+}
+
+.cloud1 {
+    left: 40px; 
+    top: 200px;
+}
+
+.cloud2 {
+    left: 110px;  
+    top:3px;
+}
+
+.cloud3 {
+    left: 250px;   
+    top: 120px;
+}
+.cloud4 {
+    left: 520px; 
+    top: 60px;
+}
+
+.cloud5 {
+    left: 700px; 
+    top: 180px;
+}
+
+.cloud6 {
+    left: 720px;  
+    top: 5px;
+}
+
+.bounce {
+    font-size: 120px; 
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .spin {
+        font-size: 80px;
+        top: 25%;
+    }
+
+    .cloud1, .cloud2, .cloud3, .cloud4, .cloud5, .cloud6 {
+        font-size: 80px;
+    }
+    
+    .bounce {
+        font-size: 100px; 
+        bottom: 5px;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .spin {
+        font-size: 60px; 
+        top: 20%;
+    }
+
+    .cloud1, .cloud2, .cloud3, .cloud4, .cloud5, .cloud6 {
+        font-size: 60px; 
+    }
+
+    .bounce {
+        font-size: 80px;
+        bottom: 0;
+        left: 40px;
+    }
+}
